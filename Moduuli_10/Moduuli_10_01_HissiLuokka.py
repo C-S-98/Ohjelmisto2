@@ -34,6 +34,7 @@ class Hissi:
         while self.nykyinen_kerros > kerros:
             self.kerros_alas()
 
+
 if __name__ == "__main__":
     h = Hissi(1, 5)
     h.siirry_kerrokseen(5)

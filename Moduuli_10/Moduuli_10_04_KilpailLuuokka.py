@@ -82,15 +82,15 @@ def main():
     # 创建10辆车（假设每辆车的名字和最高速度不同）
     autot = [
         Auto("Auto1", 80),
-        Auto("Auto2", 90),
-        Auto("Auto3", 100),
-        Auto("Auto4", 110),
-        Auto("Auto5", 115),
-        Auto("Auto6", 120),
-        Auto("Auto7", 125),
-        Auto("Auto8", 130),
-        Auto("Auto9", 135),
-        Auto("Auto10", 140)
+        Auto("Auto2", 85),
+        Auto("Auto3", 90),
+        Auto("Auto4", 95),
+        Auto("Auto5", 100),
+        Auto("Auto6", 105),
+        Auto("Auto7", 110),
+        Auto("Auto8", 115),
+        Auto("Auto9", 120),
+        Auto("Auto10", 125)
     ]
 
     kilpailu = Kilpailu("Suuri romuralli", 8000, autot)

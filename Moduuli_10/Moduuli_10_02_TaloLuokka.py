@@ -24,6 +24,7 @@ class Talo:
         else:
             print("Virheellinen hissin numero!")
 
+
 if __name__ == "__main__":
     talo = Talo(1, 10, 2)
     talo.aja_hissia(0, 5)

@@ -12,7 +12,8 @@ class TaloPalohalytys(Talo):
         super().__init__(alin_kerros, yli_kerros, hissien_maara)
 
     def palohalytys(self):
-        print("Palohälytys! Kaikki hissit siirtyvät pohjakerrokseen!")
+        print("Palohälytys! "
+              "\nKaikki hissit siirtyvät pohjakerrokseen!")
         for i, hissi in enumerate(self.hissit):
             print(f"\nHissi {i + 1} palaa pohjakerrokseen.")
             hissi.siirry_kerrokseen(self.alin_kerros)
